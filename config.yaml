@@ -1,0 +1,10 @@
+options:
+  node-version:
+    type: string
+    default: "v8.11.1"
+    description: "Nodejs version to be installed."
+  port:
+    type: int
+    default: 3000
+    description: "NodeJS listen port."
+

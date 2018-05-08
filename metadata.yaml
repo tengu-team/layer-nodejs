@@ -1,0 +1,13 @@
+name: nodejs
+summary: Nodejs runtime
+maintainer: Sander Borny <sander.borny@ugent.be>
+description: |
+  Nodejs runtime
+tags:
+  # Replace "misc" with one or more whitelisted tags from this list:
+  # https://jujucharms.com/docs/stable/authors-charm-metadata
+  - misc
+subordinate: false
+provides:
+  website:
+    interface: http
